@@ -8,8 +8,9 @@ import RenderizadoElementos from "./components/RenderiszadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
 import ComunicacionComponente from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
-import AjaxApis from "./components/AjaxApis";
+//import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
 function App() {
   return (
     <>
@@ -65,6 +66,8 @@ function App() {
             <hr></hr>
             {/* <AjaxApis /> */}
             <ContadorHooks titulo="Seguidores" />
+            <hr></hr>
+            <ScrollHooks></ScrollHooks>
           </section>
         </header>
       </div>
